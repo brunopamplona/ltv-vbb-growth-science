@@ -106,6 +106,16 @@ Shifting the subscriber mix by bidding for value rather than volume:
 
 ---
 
+## Executive Presentation
+
+The full business case — 18 slides approved by C-Level Product executives — is available as a storytelling reference:
+
+📊 [`docs/presentations/Product_Growth_Business_Case_Video+_v4.pptx`](docs/presentations/Product_Growth_Business_Case_Video+_v4.pptx)
+
+It covers problem framing, D7 framework design, VBB architecture, financial scenarios, experiment design, and rollout roadmap — the complete narrative from business problem to implementation plan.
+
+---
+
 ## Repository Structure
 
 | File | Description |
