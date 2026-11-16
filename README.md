@@ -24,6 +24,8 @@ For a streaming platform with 36,000 paid subscribers per month:
 
 ---
 
+![D7 Subscriber Class Distribution](docs/images/d7_class_distribution.png)
+
 ## The Framework: D7 Behavioral Classification
 
 Within the first 7 days, subscriber behavior is a strong predictor of long-term value. Three deterministic rules segment every new paid subscriber:
@@ -74,6 +76,8 @@ Shifting the subscriber mix by bidding for value rather than volume:
 - Payback: ~7 months
 
 ---
+
+![VBB Payback Curve — 3 Scenarios](docs/images/vbb_payback_curve.png)
 
 ## Subscription Plan Economics
 
