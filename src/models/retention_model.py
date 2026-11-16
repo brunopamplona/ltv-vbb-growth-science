@@ -86,8 +86,9 @@ class RetentionModel:
                     "survival_rate": survival,
                     "cumulative_cancellation": round(1 - survival, 4),
                     "hazard": round(
-                        1 - (survival / _SURVIVAL_CURVES[plan].get(month - 1, survival))
-                        if month > 0 else 0, 4
+                        (1 - (survival / prev_s))
+                        if month > 0 and (prev_s := _SURVIVAL_CURVES[plan].get(month - 1, survival)) > 0
+                        else 0, 4
                     ),
                 })
         return pd.DataFrame(rows)
