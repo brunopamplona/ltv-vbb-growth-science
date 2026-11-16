@@ -35,8 +35,8 @@ CHANNEL_SPEND_SHARE = {
     "Google Ads":  0.195,
     "YouTube Ads": 0.049,
     "Email":       0.138,
-    "Organic":     0.106,
-    "Referral":    0.024,
+    "Organic":     0.171,
+    "Referral":    0.129,
     "Affiliate":   0.041,
 }
 
